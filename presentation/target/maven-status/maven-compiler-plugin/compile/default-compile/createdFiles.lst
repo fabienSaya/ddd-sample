@@ -1,0 +1,3 @@
+com\bnp\lafabrique\ddd\presentation\reservation\ReservationRequestDto.class
+com\bnp\lafabrique\ddd\presentation\reservation\Mapper.class
+com\bnp\lafabrique\ddd\presentation\reservation\ReservationSalleController.class
