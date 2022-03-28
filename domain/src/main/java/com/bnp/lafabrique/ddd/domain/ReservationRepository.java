@@ -11,6 +11,6 @@ public interface ReservationRepository {
 
     Stream<ReservationEntity> findReservations(SalleVO salle, LocalDate date);
 
-    void saveReservation(ReservationEntity reservationEntity);
+    ReservationEntity saveReservation(ReservationEntity reservationEntity);
 
 }

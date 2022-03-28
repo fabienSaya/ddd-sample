@@ -1,3 +1,7 @@
+com\bnp\lafabrique\ddd\presentation\StarterMain.class
 com\bnp\lafabrique\ddd\presentation\reservation\ReservationRequestDto.class
-com\bnp\lafabrique\ddd\presentation\reservation\Mapper.class
+com\bnp\lafabrique\ddd\presentation\config\SimpleCORSFilter.class
 com\bnp\lafabrique\ddd\presentation\reservation\ReservationSalleController.class
+com\bnp\lafabrique\ddd\presentation\config\SwaggerConfig.class
+com\bnp\lafabrique\ddd\presentation\reservation\Mapper.class
+com\bnp\lafabrique\ddd\presentation\config\ApplicationBeanConfiguration.class

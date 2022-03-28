@@ -10,4 +10,11 @@ public class SalleVO {
     public String getName() {
         return name;
     }
+
+    @Override
+    public String toString() {
+        return "SalleVO{" +
+                "name='" + name + '\'' +
+                '}';
+    }
 }

@@ -17,4 +17,12 @@ public class ReservationEntity {
     public CreneauHorraireVO getCreneauHorraire() {
         return creneauHorraire;
     }
+
+    @Override
+    public String toString() {
+        return "ReservationEntity{" +
+                "salle=" + salle +
+                ", creneauHorraire=" + creneauHorraire +
+                '}';
+    }
 }
