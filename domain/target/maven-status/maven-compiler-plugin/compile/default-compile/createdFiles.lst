@@ -1,7 +1,0 @@
-com\bnp\lafabrique\ddd\domain\SalleVO.class
-com\bnp\lafabrique\ddd\domain\ReservationDomainService.class
-com\bnp\lafabrique\ddd\domain\ClientREFIM.class
-com\bnp\lafabrique\ddd\domain\CreneauHorraireVO.class
-com\bnp\lafabrique\ddd\domain\ReservationEntity.class
-com\bnp\lafabrique\ddd\domain\ReservationDomainServiceImpl.class
-com\bnp\lafabrique\ddd\domain\ReservationRepository.class
