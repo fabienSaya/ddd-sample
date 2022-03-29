@@ -1,4 +1,18 @@
-spring:
-  mvc:
-    pathmatch:
-      matching-strategy: ANT_PATH_MATCHER
+#fix si j'utilise spring boot plus recent avec la derniere version du swagger, sinon erreur au demarrage
+#spring:
+#  mvc:
+#   pathmatch:
+#     matching-strategy: ANT_PATH_MATCHER
+
+#actuator
+management:
+  endpoint:
+    health:
+      show-details: always
+      #permet de voir les endpoints dans l'url de base  http://localhost:8080/actuator/
+      show-components: always
+  endpoints:
+    web:
+      exposure:
+        #liste les endpoints qu'on rend visible
+        include: info, health, liveness, configprops, logfile, metrics, env, loggers
